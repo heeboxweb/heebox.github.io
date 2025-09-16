@@ -226,6 +226,20 @@
             font-size: 0.9rem;
             margin-top: 20px;
             padding: 20px;
+            width: 100%;
+        }
+        
+        .privacy-link {
+            color: #a3b7d0;
+            text-decoration: none;
+            margin-top: 15px;
+            display: inline-block;
+            transition: color 0.3s ease;
+        }
+        
+        .privacy-link:hover {
+            color: #4f8cff;
+            text-decoration: underline;
         }
         
         .security-badges {
@@ -340,7 +354,14 @@
     
     <div class="footer">
         <p>© 2023 HeeBox - 您的隐私，我们最重视</p>
-         <p>联系我们:763829365@qq.com</p>
+        <p>联系我们:763829365@qq.com</p>
+        <!-- 添加隐私协议链接 -->
+        <a href="https://fcn21ft1aw1k.feishu.cn/wiki/VCoZwi4f2iyYLTkv9F4cxHtLnze" 
+           class="privacy-link" 
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fas fa-file-contract"></i> 隐私协议
+        </a>
     </div>
     
     <script>
@@ -362,7 +383,7 @@
                     
                     // 2秒后跳转
                     setTimeout(() => {
-                        window.location.href = 'https://apps.apple.com';
+                        window.location.href = 'https://apps.apple.com/cn/app/id6752471964';
                     }, 2000);
                 }, 1000);
             });
