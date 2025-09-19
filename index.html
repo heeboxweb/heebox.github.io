@@ -376,16 +376,11 @@
                 
                 // 模拟下载进度
                 const originalText = this.innerHTML;
-                this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> 准备下载...';
                 
                 setTimeout(() => {
-                    this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> 正在下载...';
-                    
-                    // 2秒后跳转
-                    setTimeout(() => {
-                        window.location.href = 'https://apps.apple.com/cn/app/id6752471964';
-                    }, 2000);
-                }, 1000);
+                    window.location.href = 'https://apps.apple.com/cn/app/id6752471964';
+
+                }, 0);
             });
             
             // 添加装饰性动画元素
